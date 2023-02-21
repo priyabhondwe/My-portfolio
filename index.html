@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya Bhondwe Porfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/533cbf0472.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"><span>P</span>riya <span>B</span>hondwe.....</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#projects">My Project</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi,I'm <span>Priya</span> <br> Bhondwe From India</h1>
+            </div>
+            <div id="background-div">
+                <img id="background-img" src="Images/Picture2.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!-- About us page -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="/Images/user1.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <i class="fa-solid fa-briefcase"></i><span><h5>Fresher</h5><h6>2022-Passout</h6></span>
+                <p>I have Completed My Bachelor of Engineering in Information Technology from Bharati Vidyapeeths College of Engineering for Women, Pune. <br>
+                    As a recent graduate, I am seeking for role which allows me to continue learning and perfecting my skills as I provide high-quality work, and encourages me to Work Smart.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('internship')">Internship</p>
+                    <p class="tab-links" onclick="opentab('certification')">Certification</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br> HTML,CSS,C++,Javascript</li>
+                        <li><span>IT Constructs</span><br> OOPS,DBMS</li>
+                        <li><span>Development Tools</span><br> VS Code</li>
+                        <li><span>DB Language</span><br> MySQL</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="internship">
+                    <ul>
+                        <li><span>Cognizant</span><br> Agile Methodalogy Virtual Experience Program <br>Issue by Forage</li>
+                        <li><span>Deloitte</span><br>Deloitte Technology Virtual Experience Program <br>Issue By Forage</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="certification">
+                    <ul>
+                        <li><span>Amazon Web Services</span><br> Amazon Web Services Training and Certification</li>
+
+                        <li><span>Edureka</span> <br> Front End Web Development Course</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Bachelor's Of Enginerring</span><br>Bharati vidyapeeth College of Enginerring For Women Pune Maharashtra <br>7.74 CGPA</li>
+                        <li><span>HSC Board</span> <br> Bajirao Patil Junior college <br>73.54%</li>
+                        <li><span>SSC</span><br> Sayajinath Maharaj Vidyalaya Alandi Road <br>74.80%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ...............Project..................... -->
+
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Smart Bus Pass System</h2>
+                <p>Android Application</p>
+                <a href="https://github.com/priyabhondwe/smartbuspass-app">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Gas Booking System</h2>
+                <p>Desktop Based Application</p>
+                <a href="https://github.com/priyabhondwe/gas-booking-sytem">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>My Portfolio</h2>
+                <p>I Create My Portfolio Webpage using Html,Css,Javascript</p>
+                <a href="https://github.com/priyabhondwe">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -----------------------Protfolio ------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/work-1.png">
+                <div class="layer">
+                    <h3>Technical</h3>
+                    <h4>All My Project Upload in Netlify</h4>
+                    <p></p>
+                    <a href="https://app.netlify.com/teams/priyabhondwe12/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work-2.png">
+                <div class="layer">
+                    <h3>Hobby</h3>
+                    <h4>My Thoughts</h4>
+                    <p>In Instragram i write Quotes,Short Story</p>
+                    <a href="https://www.instagram.com/life_quotes400/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/blog-img.jpg">
+                <div class="layer">
+                    <h3>My Blog</h3>
+                    <p>Here i share My Blog/Story(Example - some Technical blog,My Story[non-fiction])</p>
+                    <a href="https://life-quotes400.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!-- ---------------Contact us---------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title
+                ">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>priyabhondwe12@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>9067314674</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/priya-b-b52042196/"><i class="fa-brands fa-linkedin"></i></a>
+                    
+                    <a href="https://www.instagram.com/iampriyabhondwe/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="Images/Priya Bhondwe Resume.pdf" class="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required >
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="Submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright@Priya Bhondwe</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents"); 
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right ="-200px";
+    }
+    
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyscbKlvkV3V8tgZcb03uEDxbGDWW9k2zgbnLInDWZ7EddQKgPcN7FY_VTswEgiQETRbw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent successfully"
+            setTimeout(function(){
+            msg.innerHTML = ""
+        },5000) 
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
