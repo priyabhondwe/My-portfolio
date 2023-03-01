@@ -26,6 +26,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  position: sticky;
 }
 h1.logo {
   color: #ff004f;
